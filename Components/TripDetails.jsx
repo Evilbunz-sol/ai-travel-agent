@@ -1,7 +1,6 @@
 import React from "react"
 import {useNavigate, useLocation} from "react-router-dom"
-import "./styles.css"
-
+import "../styles.css"
 
 export default function TripDetails() {
     const navigate = useNavigate()
