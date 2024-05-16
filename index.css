@@ -1,0 +1,122 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #F2FFFF;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F2FFFF;
+    padding: 1em 0;
+}
+
+.image {
+    margin: 6em 0 0 0;
+}
+
+.click-btn {
+    font-family: "Inter";
+    font-weight: 700;
+    background: #4BDCB0;
+    border: 4px solid #000000;
+    border-radius: 40px;
+    padding: 0.9em 5em;
+    cursor: pointer;
+}
+
+.form-label {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    margin: 0.5em; 
+}
+
+.form-input {
+    background: #F2FFFF;
+    border: 4px solid #000000;
+    border-radius: 40px;
+    padding: 0.6em 3.6em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.trip-btn {
+    margin-top: 2em;
+}
+
+/* Trip Details Page */
+.result-container{
+    background: #BBF7F7;
+    border-radius: 20px;
+    padding: 0em 1em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.date {
+    text-align: center;
+    padding: 0 1.5em;
+    font-weight: 700;
+    margin: 0 1em 0 1em;
+}
+
+.location {
+    margin: 0.1em 0 1.2em 0;
+    padding: 0.4em 6em;
+    font-weight: 700;
+    margin: 0 1em
+}
+
+.container-margin {
+    margin: 0 2em;
+}
+
+.trip-details-info-margin {
+    margin-top: 1.5em;
+    margin-bottom: 0.6em
+}
+
+h1, p, h2 {
+    color: #000000;
+}
+
+h1 {
+
+    margin-bottom: 1.5em
+}
+
+
+h2 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.click-btn.trip-details-page  {
+        border: 2px solid #000000;
+        padding: 0.3em 3em;
+        margin: 0.2em 0 1em 0;
+}
+
+.error-message {
+    font-size: 1rem;
+    color: red;
+    font-weight: 700;
+}
+
+.booked {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: green;
+}
